@@ -1,0 +1,18 @@
+q()
+q()
+q()
+q()
+model = lm(cardio_data$creatinine_phosphokinase ~cardio_data$diabetes,
+data = cardio_data)
+model= lm (cardio_data)
+plot (model)
+model= lm (cardio_data$platelets~cardio_data$anamia)
+setwd("C:/Users/kaurm/OneDrive/Desktop/Friday class project/Alzeihmer disese/CARDIO PROJECT")
+cardio_data = read.csv("Heart Failure Clinical Records (1).csv")
+View (cardio_data)
+Model= lm(cardio_data$creatinine_phosphokinase~ cardio_data $platelets,
+data=cardio_data)
+summary(model)
+summary(model)
+plot(model)
+model =  lm(cardio_data$ejection_fraction ~ cadio_data$anamia)
